@@ -1,0 +1,6 @@
+* VBump code
+This repo contains the companion code for the paper "vBump: Securing Ethernet-based Industrial Control SystemNetworks with VLAN-based Traffic Aggregation", at CPSIoTSec'21.
+
+- `analyzer.py` is a script to provide a network configuration description in .csv format to, it will create "output.csv" a mapping of VLAN IDs, and port statuses.
+- `configure.py` is a script processing "output.csv", and sending telnet/ssh-based configuration commands to the related switches (optimized for our testbed)
+- `controller2.py` is a pox-based SDN controller to be running on the vBump server.
