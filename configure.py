@@ -124,7 +124,7 @@ def applyConf(fname, ips, remote):
 
 
 # hard-coded dict for IPs
-ips = {'csw1': '172.16.5.1', 'tsw1':'172.16.2.1'}
+ips = {'switch1': '10.0.1.1', 'switch2': '10.0.2.1', 'csw1': '172.16.5.1', 'tsw1':'172.16.2.1'}
 remote = False
 fname = 'conf_test2.csv'
 if len(sys.argv)>1:
