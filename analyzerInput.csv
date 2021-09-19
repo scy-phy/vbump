@@ -1,0 +1,9 @@
+Switch;Port;Type;Comment
+switch1;1;1;host1
+switch1;2;1;host2
+switch2;2;2;server
+switch2;1;3;trunk
+switch1;4;3;trunk
+switch1;5;0;others
+
+
